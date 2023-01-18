@@ -8,7 +8,7 @@ app.use(cors());
 let users = [];
 const socketIO = require("socket.io")(http, {
   cors: {
-    origin: "https://dungnt-roomchat.netlify.app/",
+    origin: "https://dungnt-roomchat.netlify.app",
     methods: ["GET", "POST"],
   },
 });
